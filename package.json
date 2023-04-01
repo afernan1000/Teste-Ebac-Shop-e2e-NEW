@@ -1,0 +1,23 @@
+{
+  "name": "teste-ebac-shop-e2e-new",
+  "version": "1.0.0",
+  "description": "Repositório para testes com Cypress na versão atualizada",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "npx cypress open",
+    "cy:run": "npx cypress run --browser chrome",
+    "cy:shop": "npx cypress run --browser chrome --spec 'C:/GitHub/Teste-Ebac-Shop-e2e-NEW/cypress/e2e/3-ebac-testes/e2e.cy.js'",
+    "cy:login": "npx cypress run --browser chrome --spec 'C:/GitHub/Teste-Ebac-Shop-e2e-NEW/cypress/e2e/3-ebac-testes/login.cy.js'",
+    "cy:ebac-report": "cypress run --browser chrome --spec 'C:/GitHub/Teste-Ebac-Shop-e2e-NEW/cypress/e2e/3-ebac-testes/*.cy.js' --record --key eddb6cd5-5475-40a3-b01d-ff48f2359f7f"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.9.0"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0"
+  }
+}
